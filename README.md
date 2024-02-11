@@ -1,7 +1,10 @@
 DATAA1700-Oblig1
 Oblig1 i webprogrammering
 
-OsloMet brukernavn: almoh4126 GitHub brukernavn: alia19999 GitHub repo URL: https://github.com/alia19999/DATA1700-Oblig1.git Fullt navn: Ali Asghar Mohseni
+OsloMet brukernavn: almoh4126
+GitHub brukernavn: alia19999 
+GitHub repo URL: https://github.com/alia19999/DATA1700-Oblig1.git 
+Fullt navn: Ali Asghar Mohseni
 
 Kort beskrivelse:
 
