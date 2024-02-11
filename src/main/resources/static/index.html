@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Obligatorisk oppgave 1</title>
+    <script src="Billetter.js"></script>
+</head>
+<body>
+<h1><b>Bestilling av kinobilletter</b></h1>
+<p>Velg film:</p>
+<label for="film"></label>
+<select id="film">
+    <option>Batman</option>
+    <option>Oppenheimer</option>
+    <option>Barbie</option>
+    <option>Harry Potter</option>
+</select>
+<form>
+    <label for="antall"></label>
+    <p>Antall </p> <input type="text" size= "1" id="antall"/>
+    <div style = "color: red" id="antallSjekk"></div>
+    <label for="fornavn"></label>
+    <p>Fornavn</p> <input type="text" id="fornavn"/>
+    <div style = "color: red" class="tomSjekk"></div>
+    <label for="etternavn"></label>
+    <p>Etternavn</p> <input type="text" id="etternavn"/>
+    <div style = "color: red" class="tomSjekk"></div>
+    <label for="telefonnr"></label>
+    <p>Telefonnr</p> <input type="text" id="telefonnr"/>
+    <div style = "color: red" id="telefonnrSjekk"></div>
+    <label for="epost"></label>
+    <p>Epost</p> <input type="text" id="epost"/>
+    <div style = "color: red" class="tomSjekk"></div>
+</form>
+<br>
+<button onclick="leggTilBillett()">Kjøp billett</button>
+
+<h2><b>Alle billetter</b></h2>
+<div id="alleBilletter"></div>
+
+<button onclick="slettBillett()" id="slett">Slett billetter</button>
+
+</body>
+</html>
